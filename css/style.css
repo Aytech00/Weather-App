@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: 'Ubuntu', sans-serif;  
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
@@ -19,7 +20,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 19px;
     border: 1px solid whitesmoke;;
-    margin: 5px;
+    margin: 4px;
     padding: 0px 5px;
     
 }
@@ -37,12 +38,8 @@ body{
     font-size: 19px;
     
 }
-.menu-list a:hover{
-    color: greenyellow;
-}
 
 .container{
-    
     padding: 1px 0px;
     margin: auto;
 }
@@ -51,12 +48,12 @@ body{
     text-align: center;
     margin-top: 3%;
     padding: 3% 4%;
-   
     
 }
 
 .text{
-    padding: 0% 5%;
+    padding: 0% 5%;   
+    color: white;
 }
 
 form{
@@ -65,6 +62,12 @@ form{
 }
 
 
+.search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #F73D93;
+    text-align: center;
+    opacity: 0.7;
+    font-size: smaller;
+  }
 
 .button{
     padding: 2px 25px;
@@ -79,10 +82,15 @@ form{
 
 .result-container{
     text-align: center;
-    padding: 5%;
+    padding: 5% 1%;
+    margin: 5%;
     background-image:linear-gradient( rgba() rgba(), url()) ;
     border-radius: 3px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
- 
+    background: white;
 
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.977);
 }
