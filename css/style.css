@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+#logo{
+    color: #F73D93;
+}
+
+.menu-list {
+    /* background: black; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    border: 1px solid whitesmoke;;
+    margin: 5px;
+    padding: 0px 5px;
+    
+}
+
+.menu-list:hover{
+   background-color: whitesmoke;
+   color: #F73D93;
+  
+
+}
+
+.menu-list a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    
+}
+.menu-list a:hover{
+    color: greenyellow;
+}
+
+.container{
+    
+    padding: 1px 0px;
+    margin: auto;
+}
+
+.description{
+    text-align: center;
+    margin-top: 3%;
+    padding: 3% 4%;
+   
+    
+}
+
+.text{
+    padding: 0% 5%;
+}
+
+form{
+    padding: 2% 5%;
+    margin: 3% 5%
+}
+
+
+
+.button{
+    padding: 2px 25px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.result-container{
+    text-align: center;
+    padding: 5%;
+    background-image:linear-gradient( rgba() rgba(), url()) ;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+
+}
