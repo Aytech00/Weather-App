@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.menu-list {
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    border: 1px solid white;
+}
+
+.menu-list a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    
+}
+.menu-list a:hover{
+    color: greenyellow;
+}
+
+.description{
+    text-align: center;
+    margin-top: 7%;
+    padding: 5%;
+   
+    
+}
+
